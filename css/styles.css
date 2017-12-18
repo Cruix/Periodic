@@ -1,0 +1,156 @@
+.noselect {
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.periodic_table_entry {
+	width: 60px;
+	height: 90px;
+    border-style: solid;
+    border-width: 5px;
+	border-color: black;
+	background-color: white;
+	color: black;
+}
+
+.periodic_table_name {
+	font-size: 14px;
+}
+
+.periodic_table_abbr {
+	font-size: 32px;
+}
+
+.periodic_table_atomic_number {
+	font-size: 16px;
+}
+
+.periodic_table_weight {
+	font-size: 16px;
+}
+
+.chemical_bubble {
+	float: left;
+	width: 40px;
+	height: 35px;
+	padding-top: 5px;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 5px;
+	font-size: 24px;
+	background-color: white;
+}
+
+.info_page {
+	font-size: 24px;
+}
+
+#periodic_table {
+	zoom: 80%;
+	float: left;
+}
+
+#tools {
+	float: left;
+}
+
+#trash_div {
+	
+}
+
+#trash {
+	width: 80px;
+	height: 120px;
+}
+
+#reaction_zone {
+	width: 200px;
+	height: 150px;
+    border-style: solid;
+    border-width: 5px;
+	border-color: black;
+	background-color: white;
+	overflow: auto;
+}
+
+#reactiondiv {
+	display: inline-block;
+	font-size: 12px;
+	padding-top: 40px;
+}
+
+#react_button {
+	font-size: 20px;
+}
+
+#clear_button {
+	font-size: 25px;
+}
+
+#copy_button {
+	font-size: 20px;
+}
+
+#web_window_holder {
+	position: fixed;
+    border-style: solid;
+    border-width: 5px;
+	border-color: black;
+	background-color: white;
+	width: 90%;
+	height: 90%;
+	top: 5%;
+	left: 5%;
+}
+
+#web_window {
+	width: 100%;
+	height: 800px;
+}
+
+#webwindow_close {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+#info_page {
+	width: 98%;
+	height: 94%;
+	overflow: auto;
+}
+
+#copydiv {
+	padding-top: 40px;
+}
+
+#copy_in {
+    border-style: solid;
+    border-width: 5px;
+	border-color: black;
+	background-color: white;
+	width: 60px;
+	height: 60px;
+	float: left;
+	overflow: auto;
+}
+
+#copy_out {
+    border-style: solid;
+    border-width: 5px;
+	border-color: black;
+	background-color: white;
+	width: 60px;
+	height: 60px;
+	float: left;
+	overflow: auto;
+}
+
+#copy_arrow {
+	float: left;
+}
