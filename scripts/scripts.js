@@ -445,8 +445,8 @@ build_table = function() {
 
 $(function(){
 	populate_chemicals();
-	populate_elements();
+	populate_elements(); //this must be run after populate_chemicals(), otherwise any element with a natural_state parameter in its constructor will have an undefined natural_state
 	populate_reactions();
-	build_table(); //this must be run after the DOM is ready, because the table will be blank unless elements.js has been loaded
+	build_table(); //this must be run after populate_elements(), otherwise the table will be blank
 	hide_info_page();
 });
